@@ -7,7 +7,7 @@
  * @tree:  a pointer to the root node of the tree to check
  * @lo: value of smallest node visited
  * @hi: value of largest node visited
- * @return int
+ * Return: 1
  */
 int is_bst(const binary_tree_t *tree, int lo, int hi)
 {
